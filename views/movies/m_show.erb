@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic HTML Page</title>
+    <link rel="stylesheet" href="../css/movie.css">
+  </head>
+
+  <body>
+    <a href="/"><button id="home">Home</a></button>
+    <div id="md">MOVIE DETAILS</div>
+    <div id="movie_container">
+      <button id="m_full_info">
+        <ul>
+          <% @movie_info.each do |m_info| %>
+          <li>Title: <a href="/movies/<%= m_info["id"] %>"><%= " #{m_info["title"]}" %></a></li><br>
+          <li><%= "Synopsis: #{m_info["synopsis"]}" %></li><br>
+          <li><%= "Genre: #{m_info["gname"]}" %></li>
+          <li><%= "Studio: #{m_info["sname"]}" %></li>
+          <% end %>
+        </ul>
+        <ul>
+          Cast:<br>
+          <% @cast_info.each do |c_info| %>
+          <l1><a href="/actors/<%= c_info["act_id"] %>"><%= "#{c_info["aname"]}" %></a></li><br>
+            <% end %>
+          </ul>
+    </div>
+  </body>
+</html>

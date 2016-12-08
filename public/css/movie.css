@@ -1,0 +1,114 @@
+html, body{
+  width:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+
+h2 {
+  font-size: 32px
+}
+
+h3 {
+  font-size: 32px;
+}
+
+#home {
+  text-align: left;
+}
+
+#loa {
+  font-size: 40px;
+  font-family: serif;
+  padding-left: 40%;
+  padding-right: 35%;
+}
+
+#lom {
+  font-size: 40px;
+  font-family: serif;
+  padding-left: 40%;
+  padding-right: 35%;
+}
+
+#lor {
+  font-size: 40px;
+  font-family: serif;
+  padding-left: 40%;
+  padding-right: 35%;
+}
+
+#md {
+  font-size: 40px;
+  font-family: serif;
+  padding-left: 40%;
+  padding-right: 35%;
+}
+
+#container {
+  width:100%;
+  height:100%;
+  padding-left: 6%;
+}
+
+#movie_container {
+  width:100%;
+  height:100%;
+  padding-left: 5.5%;
+}
+
+#actors {
+  border-radius: 25px;
+  margin-top: 1%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+  height: 80px;
+  width: 150px;
+  font-size: 12px;
+}
+
+#actor_info {
+  border-radius: 25px;
+  margin-top: 1%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  height: 200px;
+  width: 250px;
+  font-size: 16px;
+  text-align: left;
+}
+
+#movies {
+  border-radius: 25px;
+  margin-top: 1%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+  height: 150px;
+  width: 250px;
+  font-size: 12px;
+  text-align: left;
+}
+
+#m_full_info {
+  border-radius: 25px;
+  margin-top: 1%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+  padding-right: 10%;
+  padding-left: 8%;
+  display: inline-block;
+  /*height: 500px;
+  width: 700px;*/
+  font-size: 12px;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#roles {
+  padding-right: 10%;
+  padding-left: 10%;
+}

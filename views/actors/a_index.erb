@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic HTML Page</title>
+    <link rel="stylesheet" href="../css/movie.css">
+  </head>
+
+  <body>
+    <a href="/"><button id="home">Home</a></button>
+    <div id="loa">LIST of ACTORS</div>
+    <div id="container">
+      <% @all_actors.each do |actor| %>
+      <a href="/actors/<%= actor["id"].to_i %>">
+        <button id="actors">
+          <%= "#{actor["name"]}" %>
+      </a>
+      <% end %>
+    </div>
+
+  </body>
+</html>
